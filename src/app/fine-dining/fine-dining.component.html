@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="message">
+          <p><i>To download, right click and select "Save link as".</i></p>
+        </div>
+      </div>
+</div>
+
+<div *ngFor="let episode of season2">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="audio">
+              <h5>{{episode.Name}}</h5>
+              <p><a href="episode.Path">Download</a></p>
+              <audio controls preload="metadata" style="width:50%;">
+                <source src="episode.Path" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+    </div>
+</div>
+
+<div *ngFor="let episode of season1">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="audio">
+              <h5>{{episode.Name}}</h5>
+              <p><a href="episode.Path">Download</a></p>
+              <audio controls preload="metadata" style="width:50%;">
+                <source src="episode.Path" type="audio/mpeg">
+              </audio>
+            </div>
+          </div>
+    </div>
+</div>
