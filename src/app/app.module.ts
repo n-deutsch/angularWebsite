@@ -13,6 +13,7 @@ import { SBSDComponent } from './sbsd/sbsd.component';
 import { FineDiningComponent } from './fine-dining/fine-dining.component';
 import { Christmas2019Component } from './christmas2019/christmas2019.component';
 import { Christmas2018Component } from './christmas2018/christmas2018.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { Christmas2018Component } from './christmas2018/christmas2018.component'
     SBSDComponent,
     FineDiningComponent,
     Christmas2019Component,
-    Christmas2018Component
+    Christmas2018Component,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
